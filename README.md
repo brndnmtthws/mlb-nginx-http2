@@ -2,7 +2,7 @@
 
 This is a technology demo of HTTP/2 with marathon-lb, vhosts, and nginx. Please note, this is _not_ the only way to do this with HAProxy. It's also possible to terminate TLS at HAProxy, and pass HTTP/2 through to the backends unencrypted.
 
-To begin, you'll need to add this as a URI resource:
+To begin, you'll need to add this as a URI resource to MLB:
 
 ```
 https://downloads.mesosphere.com/marathon/marathon-lb/templates-https-frontend.tar.gz
