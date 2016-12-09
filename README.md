@@ -40,7 +40,7 @@ Here's a sample app definition (be sure to replace the vhost):
         {
           "containerPort": 443,
           "servicePort": 10000,
-          "protocol": "tcp",
+          "protocol": "tcp"
         }
       ]
     }
